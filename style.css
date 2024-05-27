@@ -1,0 +1,553 @@
+.fontclass {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.scroll-head {
+  background-color: rgb(14, 48, 81);
+  height: 31px;
+  width: 100%;
+  overflow: hidden;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+}
+.scroll-left {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(218, 204, 204);
+  font-size: 12px;
+  margin-top: 7px;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+  animation: move-rtl 12000ms linear infinite;
+}
+@keyframes move-rtl {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+.nav {
+  background-color: #384248;
+  height: 60px;
+  display: flex;
+}
+.more-brants {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  font-size: 12px;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+.vl {
+  border-right: 1px solid grey;
+  height: 25px;
+  color: white;
+  padding-left: 10px;
+  margin-top: 20px;
+}
+.delivery-to {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 10px;
+  margin-top: 17px;
+  margin-left: 10px;
+}
+.add-delivery {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 11px;
+  margin-top: 30px;
+  margin-left: -52px;
+}
+.head-icons {
+  margin-left: 590px;
+  padding: 10px;
+}
+.head-icons-vl {
+  border-right: 1px solid grey;
+  height: 25px;
+  color: white;
+  margin-top: -20px;
+}
+.main-nav {
+  background-color: white;
+  padding: 9px;
+  display: flex;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+.main-nav-links {
+  margin-top: 30px;
+  padding-left: 10px;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.main-nav-links:hover {
+  background-color: #ffdf00;
+}
+/* ----------------------------- */
+.main-nav-links1 {
+  margin-left: 5px;
+  text-decoration: none;
+  color: rgb(14, 48, 81);
+  font-size: 13px;
+}
+.logo {
+  height: 60px;
+  width: 150px;
+  margin-left: 110px;
+  margin-top: 10px;
+}
+.EXPRESS-DELIVERY {
+  width: 250px;
+  height: 40px;
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ffdf00;
+  border-radius: 70px;
+  margin-top: 10px;
+}
+.EXPRESS-DELIVERY1 {
+  display: inline-block;
+  padding-top: -30px;
+  text-decoration: none;
+  padding-left: 80px;
+  position: absolute;
+  margin-top: -60px;
+}
+.head-inputbox {
+  margin-left: 10px;
+  margin-top: 30px;
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+}
+/* ----------------header end----------------- */
+
+/* ----------------section----------------- */
+
+.round-images {
+  margin-top: 50px;
+  margin-left: 100px;
+}
+.round-images-name {
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  margin-left: 10px;
+}
+/* ----------------section end----------------- */
+
+/* ----------------section ----------------- */
+
+.qr-code-container {
+  background-color: rgb(249, 231, 159);
+  height: 200px;
+  display: flex;
+}
+.qr-code-container-head {
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 120px;
+  margin-top: 50px;
+  color: rgb(14, 48, 81);
+}
+.useCode {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #384248;
+  margin-left: 120px;
+}
+.qr-code {
+  height: 150px;
+  margin-top: 30px;
+  margin-left: 50px;
+}
+
+/* ----------------section end ----------------- */
+
+/* ----------------section----------------- */
+
+.head-1 {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 40px;
+  text-align: center;
+  color: #384248;
+}
+.head-sub1 {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 10px;
+  text-align: center;
+  color: #384248;
+  font-size: 13px;
+}
+
+/* ----------------section end ----------------- */
+
+/* ----------------section----------------- */
+
+.scroll-button {
+  margin-left: 460px;
+  margin-top: 50px;
+}
+.scroll-button1 {
+  border: none;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: transparent;
+  color: rgb(14, 48, 81);
+  font-weight: bold;
+}
+.image-right-scroll{
+ 
+  display: flex;
+  overflow: scroll;
+}
+.image-right-scroll::-webkit-scrollbar{
+  display: none;
+}
+.image-right-scroll1{
+  width: 404px;
+  height: 503px;
+  margin-top: 40px;
+}
+.image-right-scroll1-btn{
+  margin-left: 70px;
+  margin-top: 420px;
+  display: inline-block;
+  background-color: white;
+  border: none;
+  height: 50px;
+  width: 200px;
+  color: rgb(14, 48, 81);
+  font-weight: bold;
+  border-radius: 8px;
+}
+/* ----------------section end ----------------- */
+
+/* ----------------section----------------- */
+.color-of-week {
+  margin-top: 50px;
+  margin-left: 109px;
+  display: flex;
+}
+.color-of-week1 {
+  height: 450px;
+  width: 450px;
+}
+.color-of-week-head {
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  padding-left: 550px;
+  margin-top: 40px;
+  color: #272d30;
+}
+.color-of-week-container {
+  background-color: #858b8f;
+  height: 290px;
+  width: 570px;
+  margin-top: 75px;
+  margin-left: -100px;
+  border-radius: 10px;
+  z-index: 0;
+}
+.container-btn {
+  margin-left: 100px;
+}
+.container-button {
+  margin: 10px;
+  height: 40px;
+  width: 150px;
+  color: rgb(14, 48, 81);
+  background-color: white;
+  font-weight: bold;
+  border: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.container-button2 {
+  position: absolute;
+  margin: 10px;
+  margin-top: 10px;
+  margin-left: 185px;
+  height: 40px;
+  width: 150px;
+  color: rgb(14, 48, 81);
+  background-color: white;
+  font-weight: bold;
+  border: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.container-button1 {
+  height: 40px;
+  margin: 10px;
+  width: 150px;
+  color: rgb(14, 48, 81);
+  font-weight: bold;
+  background-color: white;
+  border: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+/* ----------------section end ----------------- */
+
+/* ----------------section----------------- */
+
+.trending-style-container {
+  background-color: #0e3051;
+  margin-top: 50px;
+  height: 800px;
+  width: 100%;
+}
+.trenting-style-head {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  color: rgb(212, 212, 25);
+  padding: 50px;
+}
+.trending-style-btn {
+  margin-left: 500px;
+  margin-top: -30px;
+}
+.trending-style-scroll-btn {
+  border: none;
+  background-color: transparent;
+  font-size: 15px;
+  color: white;
+  padding-left: 20px;
+}
+.trending-style-img {
+  margin-left: 110px;
+  margin-top: 30px;
+}
+.trending-style-img1 {
+  height: 400px;
+  width: 250px;
+  padding-left: 15px;
+}
+.trending-style-img-describtion {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 130px;
+  display: flex;
+  color: white;
+}
+.image-color {
+  background-color: rgb(14, 48, 81);
+  height: 130px;
+  margin-left: -648px;
+  width: 648px;
+  margin-top: 500px;
+  border-radius: 0rem 0rem 1rem 1rem;
+}
+.trenting-new-arrival {
+  display: inline-block;
+  margin-top: 40px;
+  margin-left: 5px;
+  position: absolute;
+  color: white;
+}
+.Shop-now {
+  margin-left: 270px;
+  margin-top: -10px;
+  color: white;
+  text-decoration: underline;
+  text-decoration-color: yellow;
+}
+.trending-new-img1 {
+  height: 350px;
+  width: 250px;
+}
+
+/* ----------------section end ----------------- */
+
+/* ----------------section ----------------- */
+
+.allensolly-member {
+  position: absolute;
+  background-color: #ffdf00;
+  height: 340px;
+  width: 520px;
+  margin-top: -370px;
+  margin-left: 660px;
+  border-radius: 10px;
+}
+.allensolly-member1 {
+  display: inline-block;
+  position: absolute;
+  margin-top: 60px;
+  color: rgb(14, 48, 81);
+}
+.allensolly-button {
+  margin-left: 150px;
+  margin-top: 10px;
+  background-color: rgb(14, 48, 81);
+  border: none;
+  height: 50px;
+  width: 200px;
+  color: #ffdf00;
+  font-weight: bold;
+  border-radius: 8px;
+}
+/* ----------------section end ----------------- */
+
+/* ----------------section----------------- */
+
+.REFER-EARN {
+  background-color: rgb(14, 48, 81);
+  height: 100px;
+  width: 100%;
+  margin-top: 50px;
+}
+.REFER-EARN1 {
+  position: absolute;
+  margin-top: 20px;
+  font-weight: 500;
+  display: inline-block;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.REFER-EARN1-button {
+  position: absolute;
+  margin-left: 500px;
+  margin-top: 20px;
+  display: inline-block;
+  background-color: #ffdf00;
+  border: none;
+  height: 50px;
+  width: 200px;
+  color: rgb(14, 48, 81);
+  font-weight: bold;
+  border-radius: 8px;
+}
+/* ----------------section end ----------------- */
+
+/* ----------------section----------------- */
+
+.locate-allensolly {
+  background-color: #ffdf00;
+  height: 160px;
+  width: 100%;
+  margin-top: 50px;
+}
+.Locate {
+  margin-top: -100px;
+  margin-left: 500px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(14, 48, 81);
+}
+.allensollyStore {
+  margin-left: 450px;
+  margin-top: -20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(14, 48, 81);
+  font-weight: 300;
+}
+.inputbox {
+  margin-left: 710px;
+  background-color: transparent;
+  margin-top: -60px;
+  width: 300px;
+  height: 40px;
+  border-radius: 8px;
+  border-color: black;
+  position: absolute;
+}
+.Find-a-store {
+  margin-left: 710px;
+  margin-top: -80px;
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  color: grey;
+  font-size: 12px;
+}
+.show-me {
+  margin-left: 1050px;
+  margin-top: -40px;
+  position: absolute;
+  text-decoration: underline;
+  text-decoration-color: red;
+  color: grey;
+}
+/* ----------------section end ----------------- */
+
+/* ----------------section----------------- */
+
+.view-all-products {
+  margin-left: 500px;
+  margin-top: 40px;
+  display: inline-block;
+  background-color: rgb(14, 48, 81);
+  border: none;
+  height: 80px;
+  width: 450px;
+  color: white;
+  font-weight: bold;
+  border-radius: 8px;
+}
+
+/* ----------------section end ----------------- */
+
+/* ----------------footer----------------- */
+.foot-links {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: grey;
+  font-size: 13px;
+}
+.foot-icons {
+  margin-left: 20px;
+  font-size: 30px;
+  color: grey;
+}
+.JOINTHEALLENSOLLY {
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(14, 48, 81);
+}
+.foot-inputbox {
+  width: 300px;
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+  height: 40px;
+  font-size: 15px;
+  margin-top: 20px;
+}
+/* ----------------footer end ----------------- */
+
+/* ----------------footer1----------------- */
+
+.AllenSolly-1 {
+  margin-left: 100px;
+  color: rgb(66, 63, 63);
+}
+.AllenSolly-2 {
+  margin-left: 100px;
+  color: rgb(66, 63, 63);
+}
+.sub-AllenSolly-head {
+  margin-left: 100px;
+  color: rgb(66, 63, 63);
+}
+.sub-AllenSolly-head-paragraph {
+  margin-left: 100px;
+  color: grey;
+}
+.foot-privacy-policy {
+  margin-left: 100px;
+  color: grey;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 50px;
+  font-weight: 300;
+}
+.foot-message {
+  color: grey;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  margin-left: 320px;
+  margin-top: 50px;
+}
+/* ----------------footer1 end----------------- */
