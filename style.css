@@ -6,29 +6,13 @@
   height: 31px;
   width: 100%;
   overflow: hidden;
+  color: white;
 }
 body {
   margin: 0px;
   padding: 0px;
 }
-.scroll-left {
-  font-family: Arial, Helvetica, sans-serif;
-  color: rgb(218, 204, 204);
-  font-size: 12px;
-  margin-top: 7px;
-  text-align: center;
-  overflow: hidden;
-  position: relative;
-  animation: move-rtl 12000ms linear infinite;
-}
-@keyframes move-rtl {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(-100%);
-  }
-}
+
 .nav {
   background-color: #384248;
   height: 60px;
